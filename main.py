@@ -1,1 +1,1 @@
-print("Seja bem vindo!")
+print ("Projeto em dupla!")
