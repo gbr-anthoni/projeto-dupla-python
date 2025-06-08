@@ -1,8 +1,6 @@
 
 import tkinter as tk
 
-# ================= Definição de Configurações e Variáveis Globais =================
-
 # Definir as dimensões das janelas:
 AUTURA, LARGURA = 700, 600 # para visualização.
 AUTURA2,LARGURA2 = 600,500 # para edição.
@@ -120,7 +118,7 @@ def janela_edicao():
         atualizar_listas_edicao()
 
     # botões:
-    tk.Button(edicao, text="Adicionar em PREPARANDO", font=("Arial", 12), command=adicionar_pedido).pack(pady=8)
+    tk.Button(edicao, text="Pedido realizado", font=("Arial", 12), command=adicionar_pedido).pack(pady=8)
     tk.Button(edicao, text="Mover para PRONTO →", font=("Arial", 12), command=mover_para_pronto).pack(pady=6)
     tk.Button(edicao, text="← Remover de PRONTO", font=("Arial", 12), command=remover_de_pronto).pack(pady=4)
 
