@@ -5,7 +5,7 @@ import tkinter as tk
 AUTURA, LARGURA = 700, 600 # para visualização.
 AUTURA2,LARGURA2 = 600,500 # para edição.
 
-#cores:
+#denifir as cores: braco, verde e azul
 cores = ["white","#0de5a8", "#506ee5"]  # PRONTO, PREPARANDO.
 
 # Dados globais :
@@ -62,7 +62,7 @@ def janela_visualizacao(): # Definir janela
 
     return janela # No final retorna toda a janela de vizualização.
 
-# ============================= Função janela_edicao() =============================
+# ============================= Função para a janela_edicao() =============================
 
 def janela_edicao():
     edicao = tk.Toplevel() # Criar a janela principal do aplicativo Tkinter.
